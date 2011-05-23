@@ -15,7 +15,7 @@ setup(
         url='https://github.com/djm/django-reddit-auth-backend',
         packages=find_packages(),
         include_package_data=True,
-        #install_requires=[''],
+        install_requires=['requests>=0.4'],
         classifiers=[
             'Environment :: Web Environment',
             'Intended Audience :: Developers',

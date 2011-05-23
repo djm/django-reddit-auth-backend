@@ -1,0 +1,5 @@
+*.swo
+*.pyc
+*.swp
+*.egg*
+*.egg-info*
