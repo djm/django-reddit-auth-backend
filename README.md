@@ -6,12 +6,12 @@ Reddit API with a valid reddit username and password. Please read the NB below.*
 
 ##Install
 
-Till this is ready for PyPi, install is from github.
+*Till this is ready for PyPi*, install is from github.
 
 If you're using pip:
 
 
-    pip install -e git+https://TODO
+    pip install -e git+https://github.com/djm/django-reddit-auth-backend.git
 
 Otherwise, simply clone or export from the git repo URL and run `python
 setup.py install`.
