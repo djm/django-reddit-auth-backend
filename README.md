@@ -1,5 +1,5 @@
-
-#django-reddit-auth-backend (SERIOUS ALPHA - TESTS/MORE WORK ON THEIR WAY)
+#django-reddit-auth-backend
+##ALPHA - TESTS ON THEIR WAY.
 
 **A pluggable authencation backend for Django which allows authentication via the
 Reddit API with a valid reddit username and password. Please read the NB below.**
