@@ -1,7 +1,8 @@
-#django-reddit-auth-backend
+
+#django-reddit-auth-backend (SERIOUS ALPHA - TESTS/MORE WORK ON THEIR WAY)
 
 **A pluggable authencation backend for Django which allows authentication via the
-Reddit API with a valid reddit username and password.**
+Reddit API with a valid reddit username and password. Please read the NB below.**
 
 ##Install
 
@@ -9,9 +10,8 @@ Till this is ready for PyPi, install is from github.
 
 If you're using pip:
 
-`
-pip install -e git+https://TODO
-`
+
+    pip install -e git+https://TODO
 
 Otherwise, simply clone or export from the git repo URL and run `python
 setup.py install`.
@@ -30,20 +30,16 @@ lose access to groups, superuser & permissions etc.
 
 e.g
 
-`
 
-AUTHENTICATION_BACKENDS = (
-    'reddit_auth.backends.RedditBackend',
-    'django.contrib.auth.backends.ModelBackend',
-)
-`
+    AUTHENTICATION_BACKENDS = (
+        'reddit_auth.backends.RedditBackend',
+        'django.contrib.auth.backends.ModelBackend',
+    )
+
 
 **NB**: reddit's API uptime is currently not great so beware that utilising this
 backend as your *sole* authentication backend is unadvisable unless you want to
-share their level of uptime. Utilising it along with the default backend will
-minimise the downtime of already registered users but unless you have other
-registration mechanisms in place, API downtime will stop disable new
-registrations.
+share their level of uptime.
 
 ##Use
 
