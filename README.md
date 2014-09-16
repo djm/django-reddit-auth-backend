@@ -1,12 +1,23 @@
-#django-reddit-auth-backend
-##ALPHA - TESTS ON THEIR WAY.
+#django-reddit-auth-backend (deprecated)
+
+##Deprecation 2014.09.16
+
+This project will remain on Github but development is no longer active and
+indeed, has not been for a considerable time (2011).
+
+If you wish to build a Django authentication backend that uses reddit, please
+take a look at [praw](https://praw.readthedocs.org/en/v2.1.16/).
+
+----
+
+##Pre Alpha WIP Software - not for production use.
 
 **A pluggable authencation backend for Django which allows authentication via the
 Reddit API with a valid reddit username and password. Please read the NB below.**
 
 ##Install
 
-*Till this is ready for PyPi*, install is from github.
+Install is from github. This project is not on
 
 If you're using pip:
 
